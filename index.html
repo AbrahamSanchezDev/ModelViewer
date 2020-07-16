@@ -20,10 +20,28 @@
         height: 90vh;
         margin: 0 auto;
       }
+      #button1 {
+        position: fixed;
+        top: 100px;
+        left: 10px;
+        height: 50px;
+        width: 100px;
+        z-index: 3;
+      }
+      #button2 {
+        position: fixed;
+        top: 100px;
+        right: 10px;
+        height: 50px;
+        width: 100px;
+        z-index: 3;
+      }
     </style>
   </head>
   <body>
     <p>This Should have a T rex model in display</p>
+    <button id="button1">Some Button</button>
+    <button id="button2">Do more staff Button</button>
     <!-- Use it like any other HTML element -->
     <model-viewer
       src="https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/AR-js-org/AR.js/master/aframe/examples/image-tracking/nft/trex/scene.gltf"
